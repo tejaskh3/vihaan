@@ -1,6 +1,6 @@
 import React from 'react'
 import {Box, Typography} from '@mui/material'
-import Banner from './images/banner.png';
+import Banner from './images1/banner.png';
 import './Header.css'
 export default function Header() {
   return (
@@ -16,7 +16,7 @@ export default function Header() {
         <Typography variant='h6'
         sx={{ml:'10%',fontWeight:'heavy'}}
         >
-          A path for healthier track.....
+          A path for healthier life.....
         </Typography>
       </Box>
   )

@@ -136,8 +136,8 @@
 // }
 
 import React from 'react';
-import phone from './images/phone.jpg';
-import plus from './images/plus.jpg';
+import phone from './images1/phone.jpg';
+import plus from './images1/plus.jpg';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 

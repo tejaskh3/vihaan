@@ -97,7 +97,8 @@ function TopNav({ contract, account }) {
         marginTop:'1rem',
         paddingTopL:'1rem'
       }}>
-        {account ? account : 'not connected'}
+        {/* {account ? account : 'not connected'} */}
+        User01
       </Typography>
       </Stack>
     </Box>

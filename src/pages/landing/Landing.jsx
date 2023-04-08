@@ -139,10 +139,10 @@ function Landing() {
         >
         <Button
           type="submit"
-          variant="contained"
+          variant="outlined"
           // sx={{ fontSize: '1.2rem', padding: '.6rem 1.2rem' }}
           style={{
-            backgroundColor: '#228b22',
+            // backgroundColor: '#228b22',
             // boxShadow: '3px 3px 3px green',
             margin: '10px'
           }}
@@ -151,10 +151,10 @@ function Landing() {
           </Button>
           <Button
           type="submit"
-          variant="contained"
+          variant="outlined"
           // sx={{ fontSize: '1.2rem', padding: '.6rem 1.2rem' }}
           style={{
-            backgroundColor: '#4169E1',
+            // backgroundColor: '#4169E1',
             // boxShadow: '3px 3px 3px green',
             margin: '10px'
           }}
@@ -163,10 +163,10 @@ function Landing() {
           </Button>
           <Button
           type="submit"
-          variant="contained"
+          variant="outlined"
           // sx={{ fontSize: '1.2rem', padding: '.6rem 1.2rem' }}
           style={{
-            backgroundColor: '#228b22',
+            // backgroundColor: '#228b22',
             // boxShadow: '3px 3px 3px green',
             margin: '10px'
           }}
@@ -175,10 +175,10 @@ function Landing() {
           </Button>
           <Button
           type="submit"
-          variant="contained"
+          variant="outlined"
           // sx={{ fontSize: '1.2rem', padding: '.6rem 1.2rem' }}
           style={{
-            backgroundColor: '#4169E1',
+            // backgroundColor: '#4169E1',
             // boxShadow: '3px 3px 3px green',
             margin: '10px'
           }}

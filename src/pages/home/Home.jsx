@@ -5,12 +5,12 @@ import Nav2 from "./components/nav2/Nav2.jsx";
 import MainContainer from "./components/mainContainer/MainContainer.jsx";
 import RecordInfo from "./components/recordInfo/RecordInfo.jsx";
 import Upload from "./components/upload/Upload.jsx";
+import Assistance from "./components/assistance/Assistance.jsx";
 
 function Home({ account, provider, contract }) {
   return (
     <div>
       <TopNav contract={contract} account={account} />
-
       <Routes>
         <Route
           path="/*"
@@ -23,8 +23,10 @@ function Home({ account, provider, contract }) {
         />
         <Route path="/record-info" element={<RecordInfo />} />
         <Route path="/upload" element={<Upload contract={contract} />} />
+        {/* <Route path='/assistance' element={<Assistance/>}/> */}
       </Routes>
 
+      {/* <Assistance></Assistance> */}
 
     </div>
   );

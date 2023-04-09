@@ -53,7 +53,8 @@ function TopNav({ contract, account }) {
   border: '#2b4e71 solid 2px ',
   textAlign: 'center',
   // boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
-  background: '#F9F6EE',
+  // background: 'primary',
+  background:'#C9EEFF',
   marginBottom: '3rem',
       }}
 

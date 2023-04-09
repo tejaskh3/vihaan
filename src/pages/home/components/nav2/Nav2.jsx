@@ -73,8 +73,8 @@ function Nav2({ contract, account }) {
             color:'white'
           }}
           >
-            {/* <a href="/home/access">Recomendations</a> */}
-            Recomendations
+            <a href="/assistance">Recomendations</a>
+            {/* Recomendations */}
             </Button>
 
           <Button

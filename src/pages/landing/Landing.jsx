@@ -131,7 +131,7 @@ function Landing() {
       }}>
         <Stack
         direction={{ xs: 'column', sm: 'row' }}
-        spacing={{ xs: 1, sm: 5, md: 80,lg: 90 }}
+        spacing={{ xs: 1, sm: 5, md: 80,lg: 100 }}
         >
 
         <img src={logo} style={{borderRadius:'50%', width:'60px', margin:'3px'}}alt="" />
@@ -146,6 +146,8 @@ function Landing() {
             // boxShadow: '3px 3px 3px green',
             margin: '10px'
           }}
+          href=''
+
           >
           Home
           </Button>
@@ -159,7 +161,7 @@ function Landing() {
             margin: '10px'
           }}
           >
-            Features
+            About Us
           </Button>
           <Button
           type="submit"
@@ -171,19 +173,7 @@ function Landing() {
             margin: '10px'
           }}
           >
-          Working
-          </Button>
-          <Button
-          type="submit"
-          variant="outlined"
-          // sx={{ fontSize: '1.2rem', padding: '.6rem 1.2rem' }}
-          style={{
-            // backgroundColor: '#4169E1',
-            // boxShadow: '3px 3px 3px green',
-            margin: '10px'
-          }}
-          >
-            Pricing
+          Contact Us
           </Button>
           </Box>
           </Stack>

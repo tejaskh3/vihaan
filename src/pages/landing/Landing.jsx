@@ -127,6 +127,10 @@ function Landing() {
         // alignItems:'right',
         background:'#9fd1dd',
         marginBottom:'50px',
+        position:'sticky',
+        zIndex:'1',
+        top:'0',
+        opacity:'.7',
 
       }}>
         <Stack
